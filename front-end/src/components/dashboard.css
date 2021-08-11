@@ -1,0 +1,9 @@
+#dashboard-actions {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#dashboard-actions button {
+  width: auto;
+}

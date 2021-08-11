@@ -1,0 +1,56 @@
+.wrapper {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  padding: 40px;
+  /* border-radius: 5px; */
+  /* border: 1px solid #ccc; */
+}
+
+.wrapper h2 {
+  margin-bottom: 40px;
+  font-weight: normal;
+}
+
+.wrapper form {
+  display: grid;
+  grid-gap: 40px;
+  width: 100%;
+}
+
+.wrapper input,
+.wrapper button {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: 0;
+}
+
+.wrapper form input {
+  padding: 10px;
+  width: 100%;
+}
+
+.wrapper form .err-msg {
+  padding: 10px;
+  color: red;
+  background-color: rgba(255, 0, 0, 0.111);
+}
+
+.wrapper form .instruction {
+  color: rgb(99, 99, 99);
+  font-size: 14px;
+}
+
+.wrapper button {
+  width: 100%;
+  cursor: pointer;
+  border: 0;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(81, 81, 255);
+}
+
+.wrapper button:active {
+  transform: scale(0.9);
+}
